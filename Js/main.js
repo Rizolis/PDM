@@ -21,7 +21,7 @@ const sucesso = (posicao) => {
 
   latitude.innerHTML = lat;
   longitude.innerHTML = lon;
-  mapa.src = `https://www.google.com/maps?q=${lat},${lon}&z=15&output=embed`;
+  mapa.src = `https://www.google.com/maps?q=${lat},${lon}&z=15&output=embed`
 };
 
 const erro = (error) => {
