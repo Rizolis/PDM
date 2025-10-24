@@ -1,22 +1,27 @@
 {
-    "name": "Minha primeira App Progressiva",
-    "short_name": "Primeira PWA",
-    "icons": [
-        {
-          "src": "images/imagem pdm.png",
-          "sizes": "256x256",
-          "type": "image/png"
-        },
-          {
-          "src": "images/imagempdm2.png",
-          "sizes": "512x512",
-          "type": "image/png"
-        }
-        
-    ],
-    "lang": "pt-BR",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "white",
-    "theme_color": "white"
+  "name": "Geolocation Progressive Web App",
+  "short_name": "geoloc-pwa",
+  "lang": "pt-BR",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white",
+  "icons": [
+    {
+      "src": "img/pwa-icon-196.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/pwa-icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "img/pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
